@@ -1,0 +1,13 @@
+Check,Records Flagged,% of Dataset
+Duplicate customer_id,0,0.0%
+Duplicate email,0,0.0%
+Null values (any column),0,0.0%
+Negative total_spend,0,0.0%
+Negative total_orders,0,0.0%
+Age outside 13-100,0,0.0%
+total_orders = 0 but total_spend > 0 (inconsistent),1,0.1%
+last_purchase_date before signup_date,0,0.0%
+'Unknown' gender,8,0.8%
+'Unknown' city,10,1.01%
+'Unknown' preferred_channel,7,0.7%
+average_order_value mismatch (> 1.0 diff vs calculated),0,0.0%
